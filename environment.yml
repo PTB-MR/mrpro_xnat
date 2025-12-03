@@ -1,0 +1,15 @@
+name: mrpro_xnat
+channels:
+  - conda-forge
+dependencies:
+  - python<3.14
+  - xnat
+  - xmlschema
+  - ipykernel
+  - pip
+  - pip:
+    - xnat4tests
+    - ismrmrd
+    - pre-commit
+    - zenodo-get
+
